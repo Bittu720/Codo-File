@@ -42,14 +42,7 @@ function Register() {
 
     
 
-    // http://localhost:3000/register 
-    // {
-    //     "username":"faizan",
-    //     "email":"user10@gmail.com",
-    //     "role":"web developer",
-    //     "password":123456,
-    //     "cpassword":123456
-    //   }
+   
     const PostData = async (e)=>{
         e.preventDefault();
         const {username,email,password,cpassword,role,/* dom,*/} = user;
@@ -85,22 +78,7 @@ function Register() {
     }
 
 
-    // const handleSubmit = (e)=>{
-    //     e.preventDefault();
-    // }
-
-    //for authentication purpose below code/..
-    // const {values,errors,handleBlur,touched,handleChange,handleSubmit} =  useFormik({
-    //     initialValues:user,
-    //     validationSchema:registerSchema,
-    //     onSubmit:(values,action)=>{
-    //         console.log(
-    //             " ~ File: Register.jsx ~ line 14 ~ Register ~ values ",
-    //             values
-    //         );
-    //         action.resetForm();
-    //     },
-    // });
+    
 
      const width2 = window.outerWidth;
   return (
