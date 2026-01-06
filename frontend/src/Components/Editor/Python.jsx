@@ -39,10 +39,7 @@ function Python() {
         toast.remove();
         toast.error("An error Occured.");
       }
-      // console.log("Faizan Alam",data);
-      // toast.remove();
-      // toast.remove();
-      // setCode("");
+      
     }catch(err){
       toast.remove();
       setOutput("Error in communication with the server")
