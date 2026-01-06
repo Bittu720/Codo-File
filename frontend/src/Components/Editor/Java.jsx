@@ -39,10 +39,7 @@ function Java() {
         toast.remove();
         toast.error("An Error Occured");
       }
-      // console.log("Faizan Alam",data);
-      // toast.remove();
-      // toast.success('Executed Successfully.')
-      // setCode("");
+    
     }catch(err){
       toast.remove();
       toast.error('Error in communication with the server.Please check is flutter sdk is installed');
