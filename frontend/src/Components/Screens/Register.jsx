@@ -46,7 +46,7 @@ function Register() {
     const PostData = async (e)=>{
         e.preventDefault();
         const {username,email,password,cpassword,role,/* dom,*/} = user;
-        const  res = await fetch("https://codo-file-backend-xo0a.onrender.com",{
+        const  res = await fetch("https://codo-file-backend-0dpw.onrender.com",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
