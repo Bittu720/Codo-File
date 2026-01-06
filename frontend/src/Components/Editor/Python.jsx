@@ -21,7 +21,7 @@ function Python() {
     try{
 
       // const {data} = await axios.post("http://localhost:5000/runpy",payload)
-      const response = await fetch("https://codo-file-backend-xo0a.onrender.com",{
+      const response = await fetch("https://codo-file-backend-0dpw.onrender.com",{
         method:'POST',
         headers:{
           "Content-Type":"application/json"
