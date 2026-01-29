@@ -10,7 +10,7 @@ function Logout() {
     const history3 = useNavigate()
 
     useEffect(()=>{
-        fetch('https://codo-file-backend-0dpw.onrender.com',{
+        fetch('https://codo-world-backendb.onrender.com',{
             method:'GET',
             headers:{
                 "Content-Type":"application/json",
